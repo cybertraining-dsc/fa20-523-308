@@ -5,7 +5,7 @@
 - [ ] improve markdown skills
 - [ ] use footnotes as refernces, learn how to do this, read our piaza posts
 
-Travis Whitaker (Solo)
+Travis Whitaker [fa20-523-308](https://github.com/cybertraining-dsc/fa20-523-308)
 
 
 ## Dataset
