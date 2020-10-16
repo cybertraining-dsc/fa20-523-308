@@ -1,7 +1,6 @@
 # NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance
 
 - [ ] please follow our template
-- [ ] remove other assignments out of this directory
 - [ ] improve markdown skills
 - [ ] use footnotes as refernces, learn how to do this, read our piaza posts
 
