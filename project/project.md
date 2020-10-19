@@ -20,7 +20,7 @@ Contents
 
 ## 3. Choice of Data-sets
 
-The dataset we will be using is in a github folder that holds nflscrapR-data that originates from NFL.com [<sup>1</sup>]. The folder includes play-by-play data, including performance measures, for all regular season games from 2009 to 2019. This file will be paired with week-by-week regular season roster data for each team in the NFL. This will allow me to track skilled position player performance during the regular season and then compare this regular season file with the files that contain playoff teams for each year from 2009-2019. Supplemental data may be pulled from Pro-Football-Reference.com or other sources depending on what preliminary data analysis presents [^2].
+The dataset we will be using is in a github folder that holds nflscrapR-data that originates from NFL.com [<sup>1</sup>]. The folder includes play-by-play data, including performance measures, for all regular season games from 2009 to 2019. This file will be paired with week-by-week regular season roster data for each team in the NFL. This will allow me to track skilled position player performance during the regular season and then compare this regular season file with the files that contain playoff teams for each year from 2009-2019. Supplemental data may be pulled from Pro-Football-Reference.com or other sources depending on what preliminary data analysis presents [<sup>2</sup>].
 
 ## 4. Methodology
 The first step we am planning to take in understanding the data will be to use various slices of the data put into scatterplots and bar charts to find correlations and trends, as well as various time series charts. This will be an exploratory step in understanding the data. we may also deploy area charts to observe any interesting trends or segments of our data that may warrant additional analysis.
@@ -45,6 +45,6 @@ This section will be addressed upon project completion.
 
 ## 8. References
 
-[^1] Ryurko. Ryurko/NflscrapR-Data. 2 Mar. 2020, github.com/ryurko/nflscrapR-data.
+[<sup>1</sup>] Ryurko. Ryurko/NflscrapR-Data. 2 Mar. 2020, github.com/ryurko/nflscrapR-data.
 
-[^2] Sports Reference, LLC. “Pro Football Statistics and History.”  Retrieved October 09, 2020. https://www.pro-football-reference.com/
+[<sup>2</sup>] Sports Reference, LLC. “Pro Football Statistics and History.”  Retrieved October 09, 2020. https://www.pro-football-reference.com/
