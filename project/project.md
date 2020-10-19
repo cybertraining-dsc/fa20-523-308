@@ -6,6 +6,7 @@
 
 Travis Whitaker [fa20-523-308](https://github.com/cybertraining-dsc/fa20-523-308)
 
+{{< table_of_contents >}}
 
 ## Dataset
 
