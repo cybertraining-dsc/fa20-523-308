@@ -1,4 +1,4 @@
----
+$ git log
 owner:
   firstname: "Travis"
   lastname: "Whitaker"
