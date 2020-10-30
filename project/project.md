@@ -1,25 +1,25 @@
 # NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance
 
-- [ ] please use pageinfo compare template carefully
-- [ ] do not use sup
-- [I have attempted to match the markdwon of the template ] improve markdown skills
-- [again attempted to match the template ] use footnotes as refernces, learn how to do this, read our piaza posts
-- [ ] you reppeatedly copy our template wrong, please use our template precisely
+- gregor, below is the template I am referencing. If you have HELPFUL feedback on my report and exactly where my mistakes are then please let me know. If the template I am referencing below is wrong then direct me to the right template. The files for this course being piled on piazza is not helpful and is clutered: https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-312/master/project/project.md
 
 Travis Whitaker [fa20-523-308](https://github.com/cybertraining-dsc/fa20-523-308)
 
+{{% pageinfo %}}
 
 ## Abstract
 
-(To be written)
 
 Contents
+
+{{< table_of_contents >}}
+
+{{% pageinfo %}}
 
 **Keywords**:
 
 ## 1. Introduction
 
-(Content to be entered from proposal and additional material written)
+
 
 ## 2. Background Research and Previous Work
 
