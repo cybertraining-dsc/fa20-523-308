@@ -55,6 +55,6 @@ This section will be addressed upon project completion.
 
 ## 8. References
 
-[^1]: Ryurko. Ryurko/NflscrapR-Data. 2 Mar. 2020, github.com/ryurko/nflscrapR-data.
+[^1]: Ryurko. Ryurko/NflscrapR-Data. 2 Mar. 2020, <https://github.com/ryurko/nflscrapR-data>.
 
-[^2]: Sports Reference, LLC. “Pro Football Statistics and History.”  Retrieved October 09, 2020. https://www.pro-football-reference.com/
+[^2]: Sports Reference, LLC. “Pro Football Statistics and History.”  Retrieved October 09, 2020. <https://www.pro-football-reference.com/>
