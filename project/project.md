@@ -4,16 +4,15 @@
 - [ ] do not use sup
 - [I have attempted to match the markdwon of the template ] improve markdown skills
 - [again attempted to match the template ] use footnotes as refernces, learn how to do this, read our piaza posts
+- [ ] you reppeatedly copy our template wrong, please use our template precisely
 
 Travis Whitaker [fa20-523-308](https://github.com/cybertraining-dsc/fa20-523-308)
+
 
 ## Abstract
 (To be written)
 
 Contents
-{{< table_of_contents >}}
-
-{{% /pageinfo %}}
 
 **Keywords**:
 
