@@ -1,6 +1,8 @@
 # NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance
 
-- gregor, below is the template I am referencing. If you have HELPFUL feedback on my report and exactly where my mistakes are then please let me know. If the template I am referencing below is wrong then direct me to the right template. The files for this course being piled on piazza is not helpful and makes for a clutered referencing process: https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-312/master/project/project.md
+- the template is now correct
+
+- The files for this course being piled on piazza is not helpful and makes for a clutered referencing process: https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-312/master/project/project.md
 
 Travis Whitaker [fa20-523-308](https://github.com/cybertraining-dsc/fa20-523-308)
 
