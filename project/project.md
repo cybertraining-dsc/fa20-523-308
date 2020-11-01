@@ -2,7 +2,6 @@
 
 - the template is now correct
 
-- The files for this course being piled on piazza is not helpful and makes for a clutered referencing process: https://raw.githubusercontent.com/cybertraining-dsc/fa20-523-312/master/project/project.md
 
 Travis Whitaker [fa20-523-308](https://github.com/cybertraining-dsc/fa20-523-308)
 
