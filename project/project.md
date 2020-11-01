@@ -57,3 +57,23 @@ This section will be addressed upon project completion.
 [^1]: Ryurko. Ryurko/NflscrapR-Data. 2 Mar. 2020, <https://github.com/ryurko/nflscrapR-data>.
 
 [^2]: Sports Reference, LLC. “Pro Football Statistics and History.”  Retrieved October 09, 2020. <https://www.pro-football-reference.com/>
+
+## 9. Project Plan
+
+Nov. 02, 2020
+-Complete a draft of the introduction section and the inferences section
+
+Nov. 09, 2020
+- build a functioning read in for all csv files needed using curl or another python function. Complete descriptive statistic analysis on regular season variables. (Model should look at player performance and whether that player made the nfl postseason the year of their recorded performance metrics). 
+
+Nov. 16, 2020
+-complete background and previous work section. Work on building prediction model for players making the postseason, train the machine to predict based on variables. 
+
+Nov. 23, 2020
+- Finish model to see how accurate the machine or model is at predicting players making the post-season. Write a conclusion section to based on model.
+
+Dec. 1, 2020
+- Polish paper, write abstract and table of contents sections.
+
+Dec. 8, 2020
+- Make any changes requested by TA's 
