@@ -3,7 +3,8 @@
 - the template is now correct
 
 
-Travis Whitaker [fa20-523-308](https://github.com/cybertraining-dsc/fa20-523-308)
+Travis Whitaker [fa20-523-308](https://github.com/cybertraining-dsc/fa20-523-308) [Edit](https://github.com/cybertraining-dsc/fa20-523-308/blob/master/project/project.md)
+
 
 {{% pageinfo %}}
 
@@ -14,7 +15,7 @@ Contents
 
 {{< table_of_contents >}}
 
-{{% pageinfo %}}
+{{% /pageinfo %}}
 
 **Keywords**:
 
@@ -50,15 +51,10 @@ This section will be addressed upon project completion.
 
 ## 7. Acknowledgements 
 
+## Project Plan
 
-
-## 8. References
-
-[^1]: Ryurko. Ryurko/NflscrapR-Data. 2 Mar. 2020, <https://github.com/ryurko/nflscrapR-data>.
-
-[^2]: Sports Reference, LLC. “Pro Football Statistics and History.”  Retrieved October 09, 2020. <https://www.pro-football-reference.com/>
-
-## 9. Project Plan
+- [ ] will be deleted in final submission
+- [ ] can not be after Refernce section
 
 Nov. 02, 2020
 -Complete a draft of the introduction section and the inferences section
@@ -77,3 +73,11 @@ Dec. 1, 2020
 
 Dec. 8, 2020
 - Make any changes requested by TA's 
+
+
+## 8. References
+
+[^1]: Ryurko. Ryurko/NflscrapR-Data. 2 Mar. 2020, <https://github.com/ryurko/nflscrapR-data>.
+
+[^2]: Sports Reference, LLC. “Pro Football Statistics and History.”  Retrieved October 09, 2020. <https://www.pro-football-reference.com/>
+
