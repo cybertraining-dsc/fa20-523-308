@@ -15,7 +15,7 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords**:
+**Keywords**: ANOVA, Comparative Analysis, Exploratory Analysis
 
 ## 1. Introduction
 
@@ -81,8 +81,8 @@ Dec. 8, 2020
 
 [^1]: Ryurko. Ryurko/NflscrapR-Data. 2 Mar. 2020, <https://github.com/ryurko/nflscrapR-data>.
 
-[^2]: Sports Reference, LLC. “Pro Football Statistics and History.”  Retrieved October 09, 2020. <https://www.pro-football-reference.com/>
+[^2]: Sports Reference, LLC. Pro Football Statistics and History.  Retrieved October 09, 2020. <https://www.pro-football-reference.com/>
 
-[^3]: Silver, N. (2018, September 05). How Our NFL Predictions Work. Retrieved November 02, 2020, from https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/
+[^3]: Silver, N. (2018, September 05). How Our NFL Predictions Work. Retrieved November 02, 2020, from <https://fivethirtyeight.com/methodology/how-our-nfl-predictions-work/>
 
-[^4]: Zita, C. (2020, September 16). Improving a Famous NFL Prediction Model. Retrieved November 02, 2020, from https://towardsdatascience.com/improving-a-famous-nfl-prediction-model-1295a7022859
+[^4]: Zita, C. (2020, September 16). Improving a Famous NFL Prediction Model. Retrieved November 02, 2020, from <https://towardsdatascience.com/improving-a-famous-nfl-prediction-model-1295a7022859>
