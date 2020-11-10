@@ -15,7 +15,7 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords**: ANOVA, Comparative Analysis, Exploratory Analysis
+**Keywords:** ANOVA, Comparative Analysis, Exploratory Analysis, Football, Sports, Metrics
 
 ## 1. Introduction
 
