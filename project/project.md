@@ -57,7 +57,7 @@ An individual player-performance model for NFL skill position players (i.e., qua
 ![Player Qualifying for Post-Season](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/images/Player_summary_2009_2011.png)
 
 **Figure 2:** Count of Play-type by Post-Season Qualification category (2009-2011)
-![Count of Play-type by Post-Season Qualification category](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/images/Play_Count_Position_2009.png)
+![Count of Play-type by Post-Season Qualification category](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/images/Play_count_position_2009.png)
 
 **Figure 3:** ANOVA Table for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2009-2011)
 ![ANOVA for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/images/Anova_metric_importance_2009.png)
@@ -71,7 +71,7 @@ An individual player-performance model for NFL skill position players (i.e., qua
 ![Count of Play-type by Post-Season Qualification category](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/images/Play_Count_Position_2016.png)
 
 **Figure 6:** ANOVA Table for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2016-2018)
-![ANOVA for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/images/Anova_metric_importance_2016.png)
+![ANOVA for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/images/Anova_Metric_importance_2016.png)
 
 ### Comparative Results
 
