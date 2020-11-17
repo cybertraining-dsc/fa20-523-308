@@ -50,6 +50,7 @@ Finally, once all metrics have been balanced and the team performance metrics ha
 An individual player-performance model for NFL skill position players (i.e., quarterback, wide receiver, tight end, and running back) will perform better than chance level (50%) of identifying playoff teams from the NFL during the season's of 2009-2019. Further, an exploratory analysis of time periods (2009-2011 vs 2016-2018) will expose differences in the key metrics that are used to predict playoff appearance over time. This will give us a better understanding of the shifts in perfromance in the NFL at each skill position.
 
 ### Preliminary Results
+
 #### 2009-2011 Skill Position Player Performance as Playoff Predictor
 
 
