@@ -53,7 +53,7 @@ An individual player-performance model for NFL skill position players (i.e., qua
 
 #### 2009-2011 Skill Position Player Performance as Playoff Predictor
 **Figure 1:** Breakdown of Players by Skill Position That Qualified for Post-Season Play
-![Player Qualifying for Post-Season](https://github.com/cybertraining-dsc/fa20-523-308/project/images/Player_summary_2016-2018.png)
+![Player Qualifying for Post-Season](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/images/Player_summary_2016-2018.png)
 
 #### 2016-2018 Skill Position Player Performance as Playoff Predictor
 
