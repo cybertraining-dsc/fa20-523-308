@@ -75,6 +75,11 @@ An individual player-performance model for NFL skill position players (i.e., qua
 
 ### Comparative Results
 
+**Figure 7:** ANOVA Chart for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2009-2011)
+![ANOVA Chart for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/images/Anova_sig_features_2009.png)
+
+**Figure 8:** ANOVA Chart for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2016-2018)
+![ANOVA Chart for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/images/Anova_sig_features_2016.png)
 
 ## 6. Conclusion
 
