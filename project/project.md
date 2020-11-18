@@ -4,7 +4,6 @@
 
 Travis Whitaker, [fa20-523-308](https://github.com/cybertraining-dsc/fa20-523-308), [Edit](https://github.com/cybertraining-dsc/fa20-523-308/blob/main/project/project.md)
 
-
 {{% pageinfo %}}
 
 ## Abstract
@@ -113,7 +112,7 @@ Dec. 8, 2020
 
 ## 8. References
 
-[^1] Seifert, K. (2020, June 18). How pro football has changed in the past 10 years: 12 ways the NFL evolved this decade. Retrieved November 17, 2020, from <https://www.espn.com/nfl/story/_/id/28373283/how-pro-football-changed-10-years-12-ways-nfl-evolved-decade>
+[^1]: Seifert, K. (2020, June 18). How pro football has changed in the past 10 years: 12 ways the NFL evolved this decade. Retrieved November 17, 2020, from <https://www.espn.com/nfl/story/_/id/28373283/how-pro-football-changed-10-years-12-ways-nfl-evolved-decade>
 
 [^2]: Zita, C. (2020, September 16). Improving a Famous NFL Prediction Model. Retrieved November 02, 2020, from <https://towardsdatascience.com/improving-a-famous-nfl-prediction-model-1295a7022859>
 
