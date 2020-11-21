@@ -55,6 +55,8 @@ An individual player-performance model for NFL skill position players (i.e., qua
 
 ### Preliminary Results
 
+The descriptive statistics for the player performance revealed no issues with normality or different metric standards across seasons for player performance measurements. Figure 1 represents a count check for players qualifying for the post-season in the seasons of 2009-2011. Based on the NFL post-season structure 12 out of 32 teams qualify for the post-season, or 37.5%. Figure 1 shows that roughly 1/3 of players qualify for the post season at each position. However, it is important to note that each team structure and roster is different. For example, one team may carry 7 receivers, 2 running backs, 2, quarter backs, 2 tight ends, and 0 full backs, where another team may carry 4 receivers, 4 running backs, 3 quarter backs, 4 tight ends, and 1 full back. This is an important distinction to make because the "Post Season" players shown in figure 1 are not at an equal percentage across position. 
+
 #### 2009-2011 Skill Position Player Performance as Playoff Predictor
 
 
@@ -62,13 +64,13 @@ An individual player-performance model for NFL skill position players (i.e., qua
 
 **Figure 1:** Breakdown of Players by Skill Position That Qualified for Post-Season Play (2009-2011)
 
-
+We also wanted to investigate whether play-count at each position was balanced across post-season players and players who did not qualify for the post-season. Figure 2 shows that players on teams who did qualify for the post-season were involved in more plays at their position than players at their position who did not qualify for the playoffs. Thinking about this finding as a result of the regular season, players in skilled positions on post-season qualifying teams play on offenses that won more games than teams who did not qualify for the playoffs. While we did not look at time of possesion for players by position, it seems fairly reasonable by logic and the results in figure 2 that play count is higher because these teams are more succesful and the players on post-season qualifying teams are on the field more than teams with more losses who did not qualify for the post-season. 
 
 ![Count of Play-type by Post-Season Qualification category](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Play_count_position_2009.png)
 
 **Figure 2:** Count of Play-type by Post-Season Qualification category (2009-2011)
 
-
+Using the player performance metrics for the regular season, an ANOVA was run to see if these metrics placed together would be a succesful predictor of post-season qualification. Figure 3 shows the top 10 metrics that had the highest f-values for predicting post-season qualification, all of which were all significant (p<.05) in the model. Reviewing the model, the most significant factors for predicting post-season qualification for teams in order were; 1. Succesful Reception (wide receiver or tight end), 2. Total Receiving Yards (Wide Receiver or Tight End), 3. Yards After Catch (wide receiver or tight end), 4. Total Receiving Touchdowns (Wide Receiver or Tight End), 5. Total Touchdowns (All positions), 6. Receiver Plays (Wide Receiver), 7. Redzone Plays (All positions), 8. Succesful Plays (All positions), 9. Yards Gained (All positions), 10. Total Offensive Plays in the 3rd Quarter (All positions). The model accounted for 78.2% of variance. The model succesfully accounted for predicting post-season qualifying teams in 78.2% of instances. 
 
 ![ANOVA for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Anova_metric_importance_2009.png)
 
@@ -77,6 +79,7 @@ An individual player-performance model for NFL skill position players (i.e., qua
 
 #### 2016-2018 Skill Position Player Performance as Playoff Predictor
 
+We paralleled our analysis from the 2009-2011 analysis above in completing the 2016-2018 analysis represented in Figures 4-6. Figure 4 represents the player count that qualified for post-season play (orange) and the nonpost-season players (blue). Again, player count was compared to the roughly 37.5% rate that should be expected for 12 teams out of 32 qualifying for post-season play. However, the rates were a bit below the 37.5% rate. This can be explained by the number of injuries and roster changes that occur througout the season. Teams shuffle in-and-out players at each position  based on injury or performance. Teams will not have a static roster throughout the season, this includes post-season teams who cut players or put players on IR. These players, even tough they played for post-season qualifying teams, would be in blue because they are not on the post-season rosters for the teams who qualify for post-season play. This along with the roster structure described for figure 1 explains the lower than 1/3 rate of players qualifying for post-season play.
 
 ![Player Qualifying for Post-Season](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Player_summary_2016-2018.png)
 
