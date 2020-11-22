@@ -1,5 +1,7 @@
 # NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance Overtime
 
+- [ ] we suggest you use markdown tables if you can they are easy to create for example from pandas. There is a special function for that
+
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-308/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-308/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-308/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-308/actions)
 Status: in progress
