@@ -1,8 +1,8 @@
 # NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance Overtime
 
-- [ ] we suggest you use markdown tables if you can they are easy to create for example from pandas. There is a special function for that
-- [ ] are the p values all 0? if so you need to do 2 digits behind comma. change format in table
-- [ ] Attribute names in the text differe from tables and figures e.g. "Succesful Reception" I suggest you create a table with abbreviation mapping, but in reality you should changethem in your tables and figues. The way to do this is to rename the columns and describe in your Dataset what you did
+- [x] we suggest you use markdown tables if you can they are easy to create for example from pandas. There is a special function for that
+- [x] are the p values all 0? if so you need to do 2 digits behind comma. change format in table
+- [x] Attribute names in the text differe from tables and figures e.g. "Succesful Reception" I suggest you create a table with abbreviation mapping, but in reality you should changethem in your tables and figues. The way to do this is to rename the columns and describe in your Dataset what you did
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-308/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-308/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-308/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-308/actions)
