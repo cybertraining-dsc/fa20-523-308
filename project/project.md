@@ -74,32 +74,37 @@ We also wanted to investigate whether play-count at each position was balanced a
 
 **Figure 2:** Count of Play-type by Post-Season Qualification category (2009-2011)
 
-Using the player performance metrics for the regular season, an ANOVA was run to see if these metrics placed together would be a succesful predictor of post-season qualification. Figure 3 shows the top 10 metrics that had the highest f-values for predicting post-season qualification, all of which were all significant (p<.05) in the model. Reviewing the model, the most significant factors for predicting post-season qualification for teams in order were; 1. Succesful Reception (wide receiver or tight end), 2. Total Receiving Yards (Wide Receiver or Tight End), 3. Yards After Catch (wide receiver or tight end), 4. Total Receiving Touchdowns (Wide Receiver or Tight End), 5. Total Touchdowns (All positions), 6. Receiver Plays (Wide Receiver), 7. Redzone Plays (All positions), 8. Succesful Plays (All positions), 9. Yards Gained (All positions), 10. Total Offensive Plays in the 3rd Quarter (All positions). The model accounted for 78.2% of variance. The model succesfully accounted for predicting post-season qualifying teams in 78.2% of instances. 
+Using the player performance metrics for the regular season, an ANOVA was run to see if these metrics placed together would be a succesful predictor of post-season qualification. Figure 4 shows the top 10 metrics that had the highest f-values for predicting post-season qualification, all of which were all significant (p<.05) in the model. Reviewing the model, the most significant factors for predicting post-season qualification for teams in order were; 1. Succesful Reception (wide receiver or tight end), 2. Total Receiving Yards (Wide Receiver or Tight End), 3. Yards After Catch (wide receiver or tight end), 4. Total Receiving Touchdowns (Wide Receiver or Tight End), 5. Total Touchdowns (All positions), 6. Receiver Plays (Wide Receiver), 7. Redzone Plays (All positions), 8. Succesful Plays (All positions), 9. Yards Gained (All positions), 10. Total Offensive Plays in the 3rd Quarter (All positions). The model accounted for 78.2% of variance. The model succesfully accounted for predicting post-season qualifying teams in 78.2% of instances. 
 
-![ANOVA for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Anova_metric_importance_2009.png)
+![Feature Descriptions](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/figure_description_table.png)
 
-**Figure 3:** ANOVA Table for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2009-2011)
+**Figure 3:** Description for top features included in ANOVA regression model
+
+
+![ANOVA for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Anova_pvalue_table_2009.png)
+
+**Figure 4:** ANOVA Table for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2009-2011)
 
 
 #### 2016-2018 Skill Position Player Performance as Playoff Predictor
 
-We paralleled our analysis from the 2009-2011 analysis above in completing the 2016-2018 analysis represented in Figures 4-6. Figure 4 represents the player count that qualified for post-season play (orange) and the nonpost-season players (blue). Again, player count was compared to the roughly 37.5% rate that should be expected for 12 teams out of 32 qualifying for post-season play. However, the rates were a bit below the 37.5% rate. This can be explained by the number of injuries and roster changes that occur througout the season. Teams shuffle in-and-out players at each position  based on injury or performance. Teams will not have a static roster throughout the season, this includes post-season teams who cut players or put players on IR. These players, even tough they played for post-season qualifying teams, would be in blue because they are not on the post-season rosters for the teams who qualify for post-season play. This along with the roster structure described for figure 1 explains the lower than 1/3 rate of players qualifying for post-season play.
+We paralleled our analysis from the 2009-2011 analysis above in completing the 2016-2018 analysis represented in Figures 5-7. Figure 5 represents the player count that qualified for post-season play (orange) and the nonpost-season players (blue). Again, player count was compared to the roughly 37.5% rate that should be expected for 12 teams out of 32 qualifying for post-season play. However, the rates were a bit below the 37.5% rate. This can be explained by the number of injuries and roster changes that occur througout the season. Teams shuffle in-and-out players at each position  based on injury or performance. Teams will not have a static roster throughout the season, this includes post-season teams who cut players or put players on IR. These players, even tough they played for post-season qualifying teams, would be in blue because they are not on the post-season rosters for the teams who qualify for post-season play. This along with the roster structure described for figure 1 explains the lower than 1/3 rate of players qualifying for post-season play.
 
 ![Player Qualifying for Post-Season](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Player_summary_2016-2018.png)
 
-**Figure 4:** Breakdown of Players by Skill Position That Qualified for Post-Season Play (2016-2018)
+**Figure 5:** Breakdown of Players by Skill Position That Qualified for Post-Season Play (2016-2018)
 
 
 
 ![Count of Play-type by Post-Season Qualification category](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Play_Count_Position_2016.png)
 
-**Figure 5:** Count of Play-type by Post-Season Qualification category (20016-2018)
+**Figure 6:** Count of Play-type by Post-Season Qualification category (20016-2018)
 
 
 
-![ANOVA for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Anova_Metric_importance_2016.png)
+![ANOVA for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Anova_pvalue_table_2016.png)
 
-**Figure 6:** ANOVA Table for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2016-2018)
+**Figure 7:** ANOVA Table for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2016-2018)
 
 
 ### Comparative Results
@@ -107,12 +112,12 @@ We paralleled our analysis from the 2009-2011 analysis above in completing the 2
 
 ![ANOVA Chart for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Anova_sig_features_2009.png)
 
-**Figure 7:** ANOVA Chart for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2009-2011)
+**Figure 8:** ANOVA Chart for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2009-2011)
 
 
 ![ANOVA Chart for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Anova_sig_features_2016.png)
 
-**Figure 8:** ANOVA Chart for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2016-2018)
+**Figure 9:** ANOVA Chart for Metrics Measured as Predictors for Teams Qualifying for Post-Season Play (2016-2018)
 
 
 ## 6. Discussion
