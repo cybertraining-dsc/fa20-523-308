@@ -131,7 +131,7 @@ Investigating the second inference regarding changes in the predictive model acr
 
 ### Limitations
 
-Metrics are not provided for non-skill position players who could be critical in predicting playoff qualification. For instance, if we could include offensive linemen metrics, we would have a stronger model that would be better able to predict post-season qualification. Further, the NFL data we had access to does not measure defensive player metrics that could be critical in determining how “good” a team is. Future work should look to include defensive player metrics into their model, as well as non-skill position players to improve on this model. 
+Metrics are not provided for non-skill position players who could be critical in predicting playoff qualification. For instance, if we could include offensive linemen metrics, we would have a stronger model that would be better able to predict post-season qualification. Further, the NFL data we had access to does not measure defensive player metrics that we believe are critical in being able to predict post-season qualification for NFL teams. Future work should look to include defensive player metrics into their model, as well as non-skill position players to improve on this model. 
 
 ## 7. Conclusion
 
