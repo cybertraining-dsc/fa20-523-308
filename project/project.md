@@ -74,6 +74,8 @@ We also wanted to investigate whether play-count at each position was balanced a
 
 **Figure 2:** Count of Play-type by Post-Season Qualification category (2009-2011)
 
+Figure 3 below is a reference table for the features included in the ANOVA regression model determining the key features that predict post-season qualification. These features are used for reference in figures 4 and 7. 
+
 Using the player performance metrics for the regular season, an ANOVA was run to see if these metrics placed together would be a succesful predictor of post-season qualification. Figure 4 shows the top 10 metrics that had the highest f-values for predicting post-season qualification, all of which were all significant (p<.05) in the model. Reviewing the model, the most significant factors for predicting post-season qualification for teams in order were; 1. Succesful Reception (wide receiver or tight end), 2. Total Receiving Yards (Wide Receiver or Tight End), 3. Yards After Catch (wide receiver or tight end), 4. Total Receiving Touchdowns (Wide Receiver or Tight End), 5. Total Touchdowns (All positions), 6. Receiver Plays (Wide Receiver), 7. Redzone Plays (All positions), 8. Succesful Plays (All positions), 9. Yards Gained (All positions), 10. Total Offensive Plays in the 3rd Quarter (All positions). The model accounted for 78.2% of variance. The model succesfully accounted for predicting post-season qualifying teams in 78.2% of instances. 
 
 ![Feature Descriptions](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/figure_description_table.png)
@@ -94,13 +96,13 @@ We paralleled our analysis from the 2009-2011 analysis above in completing the 2
 
 **Figure 5:** Breakdown of Players by Skill Position That Qualified for Post-Season Play (2016-2018)
 
-
+Figure 6 investigates play-count at each position like figure 2 but this time for the seasons of 2016-2018. Again, the analysis was balanced across post-season players and players who did not qualify for the post-season. Figure 6 shows that players on teams who did qualify for the post-season were involved in more plays at their position than players at their position who did not qualify for the playoffs. Figure 6 shows a consistent pattern with figure 2. Descriptive statistic comparison between the 2009-2011 seasons and the 2016-2018 seasons will be revisited in the discussion section.
 
 ![Count of Play-type by Post-Season Qualification category](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Play_Count_Position_2016.png)
 
 **Figure 6:** Count of Play-type by Post-Season Qualification category (20016-2018)
 
-
+Using the player performance metrics for the regular season, an ANOVA was run to see if these metrics placed together would be a successful predictor of post-season qualification. Figure 7 shows the top 10 metrics that had the highest f-values for predicting post-season qualification, all of which were all significant (p<.05) in the model. The model successfully accounted for predicting post-season qualifying teams in 77.8% of instances.
 
 ![ANOVA for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Anova_pvalue_table_2016.png)
 
@@ -109,6 +111,7 @@ We paralleled our analysis from the 2009-2011 analysis above in completing the 2
 
 ### Comparative Results
 
+Comparing the 2016-2018 with the 2009-2011 season model, certain shifts have occurred from the 2009-2011 seasons model. Namely, yards-after-catch has become the strongest predictor of post-season qualification, flipping positions with successful reception in the 2009-2011 model. Another notable shift is the importance of number of plays run in the second quarter in the 2016-2018 model, overtaking number of plays run in the third quarter from the 2009-2011. The models themselves also shift in their strength of prediction. The 2009-2011 model shows stronger predictive capability, which is reflected in the f-values for the top 10 metrics of the model. The 2009-2011 model has four variables with f-values above 50 and one above 60. The 2016-2018 model only has one variable with an f-value above 50. These values represent the variance accounted for in the model by a variable. The higher the f-value the more variance accounted for in the model by that specific variable. 
 
 ![ANOVA Chart for Metric Importance in Model](https://github.com/cybertraining-dsc/fa20-523-308/raw/main/project/images/Anova_sig_features_2009.png)
 
@@ -123,36 +126,18 @@ Cloudmesh Comon [^cloudmesh-benchmark] is used to create the benchmark.
 
 ## 6. Discussion
 
+The first inference of this project was investigating the possibility of using in game performance metrics as a competent and better-than-chance predictor of selecting skill position players making the NFL post-season. Both the 2009-2011 and the 2016-2018 season models were able to predict player post-season qualification at 78.2% and 77.8% levels of success, both above chance level. This success highlights the critical nature of skill performance players and provides confidence to the modern metric model of NFL players as a useful and qualified tool to evaluate player performance as a measure of success. One area that was interesting to note was the p-values of the variables in each of the models. Since the f-values were so high for many of the top 10 variables listed in each model, the p-values showed highly significant far exceeding the p=.05 level that was needed. The f-values were high because they accounted for so much of the variance in the model, meaning the predictive nature of the model was due in large part to many of the variables in the top 10. Another way to state this is that each of these top 10 variables were significantly better at predicting post-season qualification than would be expected due to chance. 
+Investigating the second inference regarding changes in the predictive model across time. In comparing the descriptive statistic models (figs. 1, 2 vs. 5, 6). There are some noticeable, but not significant differences in the two-time ranges. First, there are more receivers in the 2016-2018 time range, which reflects the NFL’s shift towards a more pass prone league. Since there was not an increase in roster size between the two-time ranges, the increase in receivers lead to a decrease in the number of quarterbacks and fullbacks on a roster, but these additional receivers carried probably took the roster spots of non-skill positions players that are not accounted for here. Both models show the importance of pass plays, successful pass plays, receiving touchdowns and yards, yards after catch, and other passing variables that highlight the importance of wide receivers and tight ends. The NFL has shifted towards a more pass-friendly league [^1], and the models built here highlight the reasons why that occurred. Receiver plays are significantly more important in predicting post-season qualification than any other skill position metrics. It is likely that the shift towards receivers and away from running backs has taken place over time. It is possible that we have pulled two glimpses into this shift, and if we had pulled data from the 1990’s or 1980’s (unfortunately this data is not available in the needed metrics) we would see more running back heavy metrics at the tops of our models.
+
+### Limitations
+
+Metrics are not provided for non-skill position players who could be critical in predicting playoff qualification. For instance, if we could include offensive linemen metrics, we would have a stronger model that would be better able to predict post-season qualification. Further, the NFL data we had access to does not measure defensive player metrics that could be critical in determining how “good” a team is. Future work should look to include defensive player metrics into their model, as well as non-skill position players to improve on this model. 
 
 ## 7. Conclusion
 
 This section will be addressed upon project completion.
 
 ## 8. Acknowledgements 
-
-## Project Plan
-
-- [ ] will be deleted in final submission
-- [ ] can not be after Refernce section
-
-Nov. 02, 2020
--Complete a draft of the introduction section and the inferences section
-
-Nov. 09, 2020
-- build a functioning read in for all csv files needed using curl or another python function. Complete descriptive statistic analysis on regular season variables. (Model should look at player performance and whether that player made the nfl postseason the year of their recorded performance metrics). 
-
-Nov. 16, 2020
--complete background and previous work section. Work on building prediction model for players making the postseason, train the machine to predict based on variables. 
-
-Nov. 23, 2020
-- Finish model to see how accurate the machine or model is at predicting players making the post-season. Write a conclusion section to based on model.
-
-Dec. 1, 2020
-- Polish paper, write abstract and table of contents sections.
-
-Dec. 8, 2020
-- Make any changes requested by TA's 
-
 
 ## 9. References
 
