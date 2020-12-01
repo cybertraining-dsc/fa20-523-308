@@ -1,8 +1,5 @@
 # NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance Overtime
 
-- [x] we suggest you use markdown tables if you can they are easy to create for example from pandas. There is a special function for that
-- [x] are the p values all 0? if so you need to do 2 digits behind comma. change format in table
-- [x] Attribute names in the text differe from tables and figures e.g. "Succesful Reception" I suggest you create a table with abbreviation mapping, but in reality you should changethem in your tables and figues. The way to do this is to rename the columns and describe in your Dataset what you did
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-308/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-308/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-308/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-308/actions)
@@ -127,17 +124,22 @@ Cloudmesh Comon [^cloudmesh-benchmark] is used to create the benchmark.
 ## 6. Discussion
 
 The first inference of this project was investigating the possibility of using in game performance metrics as a competent and better-than-chance predictor of selecting skill position players making the NFL post-season. Both the 2009-2011 and the 2016-2018 season models were able to predict player post-season qualification at 78.2% and 77.8% levels of success, both above chance level. This success highlights the critical nature of skill performance players and provides confidence to the modern metric model of NFL players as a useful and qualified tool to evaluate player performance as a measure of success. One area that was interesting to note was the p-values of the variables in each of the models. Since the f-values were so high for many of the top 10 variables listed in each model, the p-values showed highly significant far exceeding the p=.05 level that was needed. The f-values were high because they accounted for so much of the variance in the model, meaning the predictive nature of the model was due in large part to many of the variables in the top 10. Another way to state this is that each of these top 10 variables were significantly better at predicting post-season qualification than would be expected due to chance. 
+
 Investigating the second inference regarding changes in the predictive model across time. In comparing the descriptive statistic models (figs. 1, 2 vs. 5, 6). There are some noticeable, but not significant differences in the two-time ranges. First, there are more receivers in the 2016-2018 time range, which reflects the NFL’s shift towards a more pass prone league. Since there was not an increase in roster size between the two-time ranges, the increase in receivers lead to a decrease in the number of quarterbacks and fullbacks on a roster, but these additional receivers carried probably took the roster spots of non-skill positions players that are not accounted for here. Both models show the importance of pass plays, successful pass plays, receiving touchdowns and yards, yards after catch, and other passing variables that highlight the importance of wide receivers and tight ends. The NFL has shifted towards a more pass-friendly league [^1], and the models built here highlight the reasons why that occurred. Receiver plays are significantly more important in predicting post-season qualification than any other skill position metrics. It is likely that the shift towards receivers and away from running backs has taken place over time. It is possible that we have pulled two glimpses into this shift, and if we had pulled data from the 1990’s or 1980’s (unfortunately this data is not available in the needed metrics) we would see more running back heavy metrics at the tops of our models.
 
-### Limitations
+### Limitations and Future Research
 
 Metrics are not provided for non-skill position players who could be critical in predicting playoff qualification. For instance, if we could include offensive linemen metrics, we would have a stronger model that would be better able to predict post-season qualification. Further, the NFL data we had access to does not measure defensive player metrics that we believe are critical in being able to predict post-season qualification for NFL teams. Future work should look to include defensive player metrics into their model, as well as non-skill position players to improve on this model. 
+
+Though we were able to build a model to predict player qualification for the post-season, future research can build on this model by making a composite of players on a team to then predict a team making the playoffs. The present study is a nice first step in understanding the capabilities of game performance for predicting player success, but NFL teams are equally interested in a team's success, not just individual skill players. Therefore, future research can build on this project by incorporating defensive player metrics, non-skill position offensive metrics, and composites of players on one team to predict a team's projected chances of making the playoffs.  
 
 ## 7. Conclusion
 
 This section will be addressed upon project completion.
 
 ## 8. Acknowledgements 
+
+Thank you to my friends and family who supported me through working on this project.
 
 ## 9. References
 
