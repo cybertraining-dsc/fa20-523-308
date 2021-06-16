@@ -3,7 +3,7 @@ date: 2021-03-15
 title: NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance Overtime
 linkTitle: NFL
 tags: ["project", "ai", "sports"]
-description: NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance Overtime
+description: "The present research investigates the value of in-game performance metrics for NFL skill position players (i.e., Quarterback, Wide Receiver, Tight End, Running Back and Full Back) in predicting post-season qualification. Utilizing nflscrapR-data that collects all regular season in-game performance metrics between 2009-2018, we are able to analyze the value of each of these in-game metrics by including them in a regression model that explores each variables strength in predicting post-season qualification. We also explore a comparative analysis between two time periods in the NFL (2009-2011 vs 2016-2018) to see if there is a shift in the critical metrics that predict post-season qualification for NFL teams. Theoretically, this could help inform the debate as to whether there has been a shift in the style of play in the NFL across the previous decade and where those changes may be taking place according to the data. Implications and future research are discussed."
 author: Travis Whitaker
 resources:
 - src: "**.{png,jpg}"
