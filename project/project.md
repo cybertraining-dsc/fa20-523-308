@@ -1,4 +1,14 @@
-# NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance Overtime
+---
+date: 2021-03-15
+title: NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance Overtime
+linkTitle: NFL
+tags: ["project", "ai", "sports"]
+description: NFL Regular Season Skilled Position Player Performance as a Predictor of Playoff Appearance Overtime
+author: Travis Whitaker
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+---
 
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-308/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-308/actions)
